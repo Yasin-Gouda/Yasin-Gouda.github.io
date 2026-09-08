@@ -1,4 +1,4 @@
-javascript
+
 const menuButton = document.querySelector(".menu-button");
 const navbar = document.querySelector(".navbar");
 const navLinks = document.querySelectorAll(".nav-links a");
