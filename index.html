@@ -1,253 +1,446 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yasin Gouda | Full-Stack .NET Developer</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <title>Yasin Gouda — Full-Stack .NET Developer</title>
+    <meta name="description" content="Yasin Gouda — Computer Science student and Full-Stack .NET Developer.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<header>
-    <div class="container nav">
-        <div class="logo">YG</div>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </div>
-</header>
+            <a href="#" class="logo">YG<span>.</span></a>
 
-<section class="hero">
-    <div class="container hero-content">
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-        <span class="badge">DEPI .NET Full-Stack Trainee</span>
+            <a href="#contact" class="nav-button">Let's talk</a>
 
-        <h1>Yasin Gouda</h1>
-
-        <h2>Full-Stack .NET Developer</h2>
-
-        <p>
-            Computer Science student at Mansoura University passionate about
-            backend development, software engineering, and building scalable
-            web applications using C# and ASP.NET Core.
-        </p>
-
-        <div class="hero-buttons">
-            <a href="mailto:yassiengouda@gmail.com" class="btn-primary">
-                Contact Me
-            </a>
-
-            <a href="https://github.com/Yasin-Gouda" target="_blank" class="btn-secondary">
-                GitHub
-            </a>
-        </div>
-
-    </div>
-</section>
-
-<section id="about" class="section">
-    <div class="container">
-
-        <h2 class="section-title">About Me</h2>
-
-        <p class="about-text">
-            I am a Computer Science student at Mansoura University and an aspiring
-            Full-Stack .NET Developer. Currently participating in the Digital Egypt
-            Pioneers Initiative (DEPI), I focus on building scalable applications
-            using C#, ASP.NET Core, SQL Server, HTML, CSS, and JavaScript.
-
-            My interests include software engineering, backend development,
-            system design, and creating practical solutions that solve
-            real-world problems.
-        </p>
-
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-
-        <h2 class="section-title">Education</h2>
-
-        <div class="card">
-
-            <h3>Mansoura University</h3>
-
-            <p>
-                Bachelor of Science (B.Sc.) in Computers and Information Sciences
-            </p>
-
-            <p>Expected Graduation: June 2028</p>
-
-            <p>
-                Programming, Data Structures, Algorithms,
-                Databases, Operating Systems,
-                Computer Architecture
-            </p>
+            <button class="menu-button" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
         </div>
+    </header>
 
-    </div>
-</section>
 
-<section id="experience" class="section">
-    <div class="container">
+    <main>
 
-        <h2 class="section-title">Experience</h2>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero-container">
 
-        <div class="timeline">
+                <div class="hero-content">
 
-            <div class="card">
-                <h3>Software Development Trainee (.NET)</h3>
-                <h4>Digital Egypt Pioneers Initiative (DEPI)</h4>
+                    <div class="availability">
+                        <span></span>
+                        Software Development Trainee · DEPI
+                    </div>
 
-                <ul>
-                    <li>Learning ASP.NET Core Full-Stack Development.</li>
-                    <li>Building APIs and Web Applications.</li>
-                    <li>Using Git, GitHub and software engineering practices.</li>
-                </ul>
+                    <h1>
+                        Building software
+                        <span>with .NET.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I'm Yasin Gouda, a Computer Science student at Mansoura University
+                        focused on becoming a strong Full-Stack .NET Developer.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="button primary">
+                            View my work
+                            <span>↗</span>
+                        </a>
+
+                        <a href="https://github.com/Yasin-Gouda" target="_blank" class="button secondary">
+                            GitHub
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="code-card">
+
+                        <div class="window-bar">
+                            <div class="window-dots">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+
+                            <span>Program.cs</span>
+                        </div>
+
+                        <div class="code-content">
+<pre><span class="keyword">using</span> System;
+
+<span class="keyword">class</span> <span class="class-name">Developer</span>
+{
+    <span class="keyword">static void</span> Main()
+    {
+        <span class="keyword">var</span> developer = <span class="keyword">new</span> Developer();
+
+        developer.<span class="function">Build</span>();
+        developer.<span class="function">Learn</span>();
+        developer.<span class="function">Improve</span>();
+    }
+}</pre>
+                        </div>
+
+                    </div>
+
+                    <div class="hero-badge badge-one">
+                        <strong>C#</strong>
+                        <span>Primary language</span>
+                    </div>
+
+                    <div class="hero-badge badge-two">
+                        <strong>.NET</strong>
+                        <span>Main stack</span>
+                    </div>
+
+                </div>
+
             </div>
+        </section>
 
-            <div class="card">
-                <h3>Educational Manager</h3>
-                <h4>Yes You Can Academy</h4>
 
-                <ul>
-                    <li>Managed English training operations.</li>
-                    <li>Evaluated instructors and candidates.</li>
-                    <li>Redesigned course modules.</li>
-                </ul>
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">01</span>
+                    <h2>About me</h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-main">
+                        <p class="large-text">
+                            I'm a Computer Science student who is currently
+                            building my foundation in software engineering
+                            through <strong>C#, .NET, SQL and OOP.</strong>
+                        </p>
+
+                        <p>
+                            My main goal is to become a well-rounded .NET developer
+                            who understands how software works beyond simply
+                            making an application run.
+                        </p>
+
+                        <p>
+                            I'm currently developing my skills through DEPI,
+                            university, personal projects and hands-on practice.
+                        </p>
+                    </div>
+
+                    <div class="about-side">
+
+                        <div class="info-item">
+                            <span>Based in</span>
+                            <strong>Egypt</strong>
+                        </div>
+
+                        <div class="info-item">
+                            <span>Education</span>
+                            <strong>Computer Science</strong>
+                        </div>
+
+                        <div class="info-item">
+                            <span>University</span>
+                            <strong>Mansoura University</strong>
+                        </div>
+
+                        <div class="info-item">
+                            <span>English</span>
+                            <strong>IELTS 8.0</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
+        </section>
 
-            <div class="card">
-                <h3>English Instructor</h3>
-                <h4>Yes You Can Academy</h4>
 
-                <ul>
-                    <li>Delivered online English lessons.</li>
-                    <li>Customized learning plans.</li>
-                    <li>Managed virtual classrooms.</li>
-                </ul>
+        <!-- Experience -->
+        <section id="experience" class="section section-dark">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">02</span>
+                    <h2>Experience</h2>
+                </div>
+
+                <div class="timeline">
+
+                    <article class="timeline-item">
+                        <div class="timeline-date">Jul 2026 — Present</div>
+
+                        <div class="timeline-content">
+                            <h3>Software Development Trainee</h3>
+                            <h4>Digital Egypt Pioneers Initiative · DEPI</h4>
+                            <p>
+                                Developing practical software engineering skills
+                                through the Full-Stack .NET track, with a focus on
+                                C#, OOP, SQL and the .NET ecosystem.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-date">Mar 2026 — Present</div>
+
+                        <div class="timeline-content">
+                            <h3>Educational Manager</h3>
+                            <h4>Yes You Can Academy</h4>
+                            <p>
+                                Managing educational operations, supporting instructors,
+                                monitoring performance and maintaining quality standards.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-date">Dec 2025 — Mar 2026</div>
+
+                        <div class="timeline-content">
+                            <h3>English Instructor</h3>
+                            <h4>Yes You Can Academy</h4>
+                            <p>
+                                Delivered English instruction and worked directly
+                                with students to improve their communication skills.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-date">Jul 2025 — Oct 2025</div>
+
+                        <div class="timeline-content">
+                            <h3>Customer Service Agent</h3>
+                            <h4>Concentrix</h4>
+                            <p>
+                                Worked in a high-volume customer service environment,
+                                developing communication, problem-solving and
+                                professional skills.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
             </div>
+        </section>
 
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">03</span>
+                    <h2>Technical skills</h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card featured">
+                        <span class="skill-icon">C#</span>
+                        <div>
+                            <h3>C# / .NET</h3>
+                            <p>OOP · Collections · LINQ · .NET fundamentals</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">DB</span>
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Relational databases · Queries · Data management</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">&lt;/&gt;</span>
+                        <div>
+                            <h3>Web</h3>
+                            <p>HTML · CSS · JavaScript</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">GIT</span>
+                        <div>
+                            <h3>Development Tools</h3>
+                            <p>Git · GitHub · Visual Studio</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="skill-tags">
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>OOP</span>
+                    <span>SQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>C++</span>
+                    <span>Python</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="section section-dark">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">04</span>
+                    <h2>Projects</h2>
+                </div>
+
+                <div class="projects-empty">
+
+                    <div class="empty-icon">{ }</div>
+
+                    <h3>Projects are currently in development.</h3>
+
+                    <p>
+                        I'm currently building my first set of .NET projects.
+                        This section will be updated as they are completed.
+                    </p>
+
+                    <div class="project-roadmap">
+                        <span>Library Management System</span>
+                        <span>DVLD Management System</span>
+                        <span>Stock Management System</span>
+                        <span>DEPI Capstone</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Education -->
+        <section class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">05</span>
+                    <h2>Education</h2>
+                </div>
+
+                <div class="education-card">
+
+                    <div>
+                        <span class="education-label">2024 — Present</span>
+                        <h3>Computer Science</h3>
+                        <p>Mansoura University</p>
+                    </div>
+
+                    <div class="education-right">
+                        <span>3rd Year</span>
+                    </div>
+
+                </div>
+
+                <div class="education-card">
+
+                    <div>
+                        <span class="education-label">English Proficiency</span>
+                        <h3>IELTS Academic</h3>
+                        <p>Overall Band Score</p>
+                    </div>
+
+                    <div class="education-right score">
+                        8.0
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+
+                <div class="contact-content">
+
+                    <span class="contact-label">06 · CONTACT</span>
+
+                    <h2>
+                        Let's build something
+                        <span>useful.</span>
+                    </h2>
+
+                    <p>
+                        I'm always interested in software development,
+                        internships, freelance work and opportunities to learn.
+                    </p>
+
+                    <a href="mailto:yassiengouda@gmail.com" class="contact-email">
+                        yassiengouda@gmail.com
+                        <span>↗</span>
+                    </a>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Yasin-Gouda" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/yasin-gouda" target="_blank">LinkedIn</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="container footer-container">
+            <span>© 2026 Yasin Gouda</span>
+            <span>Built with HTML, CSS & JavaScript</span>
         </div>
+    </footer>
 
-    </div>
-</section>
 
-<section id="skills" class="section">
-    <div class="container">
-
-        <h2 class="section-title">Technical Skills</h2>
-
-        <div class="skills-grid">
-
-            <div class="skill">C#</div>
-            <div class="skill">ASP.NET Core</div>
-            <div class="skill">SQL Server</div>
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">Git</div>
-            <div class="skill">GitHub</div>
-            <div class="skill">C++</div>
-            <div class="skill">Python</div>
-            <div class="skill">Visual Studio</div>
-            <div class="skill">Notion</div>
-
-        </div>
-
-    </div>
-</section>
-
-<section id="projects" class="section">
-    <div class="container">
-
-        <h2 class="section-title">Projects</h2>
-
-        <div class="projects-grid">
-
-            <div class="project-card">
-                <h3>Library Management System</h3>
-                <p>Coming Soon</p>
-            </div>
-
-            <div class="project-card">
-                <h3>DVLD System</h3>
-                <p>Coming Soon</p>
-            </div>
-
-            <div class="project-card">
-                <h3>Stock Management System</h3>
-                <p>Coming Soon</p>
-            </div>
-
-            <div class="project-card">
-                <h3>DEPI Capstone</h3>
-                <p>In Progress</p>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-
-        <h2 class="section-title">Certificates</h2>
-
-        <div class="card">
-            <h3>IELTS Academic</h3>
-            <p>Band Score: 8.0</p>
-        </div>
-
-    </div>
-</section>
-
-<section id="contact" class="section">
-    <div class="container">
-
-        <h2 class="section-title">Contact</h2>
-
-        <div class="contact">
-
-            <p>📧 yassiengouda@gmail.com</p>
-            <p>📱 +20 109 029 4541</p>
-
-            <div class="socials">
-
-                <a target="_blank" href="https://linkedin.com/in/yasin-gouda">
-                    LinkedIn
-                </a>
-
-                <a target="_blank" href="https://github.com/Yasin-Gouda">
-                    GitHub
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 Yasin Gouda. All Rights Reserved.</p>
-</footer>
-
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
+```
