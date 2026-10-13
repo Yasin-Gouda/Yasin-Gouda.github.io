@@ -1,214 +1,324 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yasin Gouda — .NET Developer</title>
-    <meta name="description" content="Yasin Gouda is a Computer Science student at Mansoura University training as a Full-Stack .NET developer.">
-    <meta name="color-scheme" content="light dark">
+    <meta
+      name="description"
+      content="Yasin Gouda is a Computer Science student at Mansoura University training as a Full-Stack .NET developer."
+    />
+    <meta name="color-scheme" content="light dark" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<header class="site-header">
-    <div class="wrap bar">
-        <a href="#top" class="wordmark" aria-label="Yasin Gouda, home"><span class="mark" aria-hidden="true">YG</span><span>Yasin Gouda</span></a>
-        <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a href="#top" class="wordmark" aria-label="Yasin Gouda, home"
+          ><span class="mark" aria-hidden="true">YG</span
+          ><span>Yasin Gouda</span></a
+        >
+        <button
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
         <nav id="site-nav" class="site-nav" aria-label="Main">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
         </nav>
-    </div>
-</header>
+      </div>
+    </header>
 
-<main id="top">
+    <main id="top">
+      <div class="hero-band">
+        <section class="hero wrap">
+          <h1>Yasin Gouda</h1>
+          <p class="lead">
+            I'm a Computer Science student learning to build web applications
+            with C# and .NET. I like understanding how a system works, not only
+            getting it to run.
+          </p>
+          <dl class="facts">
+            <div>
+              <dt>Now</dt>
+              <dd>Software Development Trainee at DEPI</dd>
+            </div>
+            <div>
+              <dt>Studying</dt>
+              <dd>Computer Science, Mansoura University</dd>
+            </div>
+            <div>
+              <dt>Based in</dt>
+              <dd>Egypt</dd>
+            </div>
+          </dl>
+        </section>
+      </div>
 
-    <div class="hero-band">
-    <section class="hero wrap">
-        <h1>Yasin Gouda</h1>
-        <p class="lead">
-            I'm a Computer Science student learning to build web applications with C# and .NET.
-            I like understanding how a system works, not only getting it to run.
-        </p>
-        <dl class="facts">
-            <div><dt>Now</dt><dd>Software Development Trainee at DEPI</dd></div>
-            <div><dt>Studying</dt><dd>Computer Science, Mansoura University</dd></div>
-            <div><dt>Based in</dt><dd>Egypt</dd></div>
-        </dl>
-    </section>
-    </div>
-
-    <section id="about" class="block wrap">
+      <section id="about" class="block wrap">
         <h2>About</h2>
         <div class="body">
-            <p>
-                I'm in my third year of Computer Science and building my foundation through
-                C#, .NET, SQL and object-oriented design. Alongside university, I'm training
-                in the Full-Stack .NET track at DEPI and building small projects to practise
-                what I learn.
-            </p>
-            <p>
-                Before software, I worked in customer service and later taught English, which is
-                why I'm comfortable explaining technical ideas in plain language. My English
-                score is IELTS Academic 8.0.
-            </p>
+          <p>
+            I'm in my third year of Computer Science and building my foundation
+            through C#, .NET, SQL and object-oriented design. Alongside
+            university, I'm training in the Full-Stack .NET track at DEPI and
+            building small projects to practise what I learn.
+          </p>
+          <p>
+            Before software, I worked in customer service and later taught
+            English, which is why I'm comfortable explaining technical ideas in
+            plain language. My English score is IELTS Academic 8.0.
+          </p>
         </div>
-    </section>
+      </section>
 
-    <section id="projects" class="block wrap">
+      <section id="projects" class="block wrap">
         <h2>Projects</h2>
         <div class="body">
-            <ul class="projects">
-                <li>
-                    <a href="https://github.com/Yasin-Gouda/LibrarryManagmentSystem" target="_blank" rel="noopener">
-                        <span class="p-name">Library Management System</span>
-                        <span class="p-desc">Keeps track of a library's books and the people borrowing them.</span>
-                        <span class="p-lang"><i class="dot cs"></i>C#</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Yasin-Gouda/Inventory_System" target="_blank" rel="noopener">
-                        <span class="p-name">Inventory System</span>
-                        <span class="p-desc">Records stock items and keeps quantities up to date.</span>
-                        <span class="p-lang"><i class="dot cs"></i>C#</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Yasin-Gouda/Task-Tracker" target="_blank" rel="noopener">
-                        <span class="p-name">Task Tracker</span>
-                        <span class="p-desc">A simple tool for adding tasks and following their progress.</span>
-                        <span class="p-lang"><i class="dot cs"></i>C#</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Yasin-Gouda/Quiz-Game" target="_blank" rel="noopener">
-                        <span class="p-name">Quiz Game</span>
-                        <span class="p-desc">Asks questions, checks the answers and keeps score.</span>
-                        <span class="p-lang"><i class="dot cs"></i>C#</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Yasin-Gouda/MazeGameProject" target="_blank" rel="noopener">
-                        <span class="p-name">Maze Game</span>
-                        <span class="p-desc">A game where the player finds a way through a maze.</span>
-                        <span class="p-lang"><i class="dot cs"></i>C#</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Yasin-Gouda/Tolkien_Independent_Bookstore" target="_blank" rel="noopener">
-                        <span class="p-name">Tolkien Independent Bookstore</span>
-                        <span class="p-desc">A bookstore web page built with plain HTML and CSS.</span>
-                        <span class="p-lang"><i class="dot html"></i>HTML, CSS</span>
-                    </a>
-                </li>
-            </ul>
-            <p class="more">The rest of my repositories are on <a href="https://github.com/Yasin-Gouda?tab=repositories" target="_blank" rel="noopener">GitHub</a>.</p>
+          <ul class="projects">
+            <li>
+              <a
+                href="https://github.com/Yasin-Gouda/LibrarryManagmentSystem"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="p-name">Library Management System</span>
+                <span class="p-desc"
+                  >Keeps track of a library's books and the people borrowing
+                  them.</span
+                >
+                <span class="p-lang"><i class="dot cs"></i>C#</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Yasin-Gouda/Inventory_System"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="p-name">Inventory System</span>
+                <span class="p-desc"
+                  >Records stock items and keeps quantities up to date.</span
+                >
+                <span class="p-lang"><i class="dot cs"></i>C#</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Yasin-Gouda/Task-Tracker"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="p-name">Task Tracker</span>
+                <span class="p-desc"
+                  >A simple tool for adding tasks and following their
+                  progress.</span
+                >
+                <span class="p-lang"><i class="dot cs"></i>C#</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Yasin-Gouda/Quiz-Game"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="p-name">Quiz Game</span>
+                <span class="p-desc"
+                  >Asks questions, checks the answers and keeps score.</span
+                >
+                <span class="p-lang"><i class="dot cs"></i>C#</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Yasin-Gouda/MazeGameProject"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="p-name">Maze Game</span>
+                <span class="p-desc"
+                  >A game where the player finds a way through a maze.</span
+                >
+                <span class="p-lang"><i class="dot cs"></i>C#</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Yasin-Gouda/Tolkien_Independent_Bookstore"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="p-name">Tolkien Independent Bookstore</span>
+                <span class="p-desc"
+                  >A bookstore web page built with plain HTML and CSS.</span
+                >
+                <span class="p-lang"><i class="dot html"></i>HTML, CSS</span>
+              </a>
+            </li>
+          </ul>
+          <p class="more">
+            The rest of my repositories are on
+            <a
+              href="https://github.com/Yasin-Gouda?tab=repositories"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >.
+          </p>
         </div>
-    </section>
+      </section>
 
-    <section id="experience" class="block wrap">
+      <section id="experience" class="block wrap">
         <h2>Experience</h2>
         <div class="body">
-            <ol class="roles">
-                <li>
-                    <time>Jul 2026 – now</time>
-                    <div>
-                        <h3>Software Development Trainee</h3>
-                        <p class="org">Digital Egypt Pioneers Initiative (DEPI)</p>
-                        <p>Training on the Full-Stack .NET track, covering C#, OOP, SQL and the .NET ecosystem.</p>
-                    </div>
-                </li>
-                <li>
-                    <time>Mar 2026 – now</time>
-                    <div>
-                        <h3>Educational Manager</h3>
-                        <p class="org">Yes You Can Academy</p>
-                        <p>Run educational operations, support instructors, monitor performance and maintain quality standards.</p>
-                    </div>
-                </li>
-                <li>
-                    <time>Dec 2025 – Mar 2026</time>
-                    <div>
-                        <h3>English Instructor</h3>
-                        <p class="org">Yes You Can Academy</p>
-                        <p>Taught English and worked directly with students to improve their communication.</p>
-                    </div>
-                </li>
-                <li>
-                    <time>Jul 2025 – Oct 2025</time>
-                    <div>
-                        <h3>Customer Service Agent</h3>
-                        <p class="org">Concentrix</p>
-                        <p>Handled high-volume customer requests and built problem-solving and communication skills.</p>
-                    </div>
-                </li>
-            </ol>
+          <ol class="roles">
+            <li>
+              <time>Jul 2026 – now</time>
+              <div>
+                <h3>Software Development Trainee</h3>
+                <p class="org">Digital Egypt Pioneers Initiative (DEPI)</p>
+                <p>
+                  Training on the Full-Stack .NET track, covering C#, OOP, SQL
+                  and the .NET ecosystem.
+                </p>
+              </div>
+            </li>
+            <li>
+              <time>Mar 2026 – now</time>
+              <div>
+                <h3>Educational Manager</h3>
+                <p class="org">Yes You Can Academy</p>
+                <p>
+                  Run educational operations, support instructors, monitor
+                  performance and maintain quality standards.
+                </p>
+              </div>
+            </li>
+            <li>
+              <time>Dec 2025 – Mar 2026</time>
+              <div>
+                <h3>English Instructor</h3>
+                <p class="org">Yes You Can Academy</p>
+                <p>
+                  Taught English and worked directly with students to improve
+                  their communication.
+                </p>
+              </div>
+            </li>
+            <li>
+              <time>Jul 2025 – Oct 2025</time>
+              <div>
+                <h3>Customer Service Agent</h3>
+                <p class="org">Concentrix</p>
+                <p>
+                  Handled high-volume customer requests and built
+                  problem-solving and communication skills.
+                </p>
+              </div>
+            </li>
+          </ol>
         </div>
-    </section>
+      </section>
 
-    <section id="skills" class="block wrap">
+      <section id="skills" class="block wrap">
         <h2>Skills</h2>
         <div class="body">
-            <dl class="skills">
-                <div><dt>Main stack</dt><dd>C#, .NET, OOP, LINQ, collections</dd></div>
-                <div><dt>Data</dt><dd>SQL, relational databases</dd></div>
-                <div><dt>Web</dt><dd>HTML, CSS, JavaScript</dd></div>
-                <div><dt>Other languages</dt><dd>C++, Python</dd></div>
-                <div><dt>Tools</dt><dd>Git, GitHub, Visual Studio</dd></div>
-            </dl>
+          <dl class="skills">
+            <div>
+              <dt>Main stack</dt>
+              <dd>C#, .NET, OOP, LINQ, collections</dd>
+            </div>
+            <div>
+              <dt>Data</dt>
+              <dd>SQL, relational databases</dd>
+            </div>
+            <div>
+              <dt>Web</dt>
+              <dd>HTML, CSS, JavaScript</dd>
+            </div>
+            <div>
+              <dt>Other languages</dt>
+              <dd>C++, Python</dd>
+            </div>
+            <div>
+              <dt>Tools</dt>
+              <dd>Git, GitHub, Visual Studio</dd>
+            </div>
+          </dl>
         </div>
-    </section>
+      </section>
 
-    <section id="education" class="block wrap">
+      <section id="education" class="block wrap">
         <h2>Education</h2>
         <div class="body">
-            <ol class="roles">
-                <li>
-                    <time>2024 – now</time>
-                    <div>
-                        <h3>BSc, Computer Science</h3>
-                        <p class="org">Mansoura University, third year</p>
-                    </div>
-                </li>
-                <li>
-                    <time>English</time>
-                    <div>
-                        <h3>IELTS Academic, band 8.0</h3>
-                        <p class="org">Overall score</p>
-                    </div>
-                </li>
-            </ol>
+          <ol class="roles">
+            <li>
+              <time>2024 – now</time>
+              <div>
+                <h3>BSc, Computer Science</h3>
+                <p class="org">Mansoura University, third year</p>
+              </div>
+            </li>
+            <li>
+              <time>English</time>
+              <div>
+                <h3>IELTS Academic, band 8.0</h3>
+                <p class="org">Overall score</p>
+              </div>
+            </li>
+          </ol>
         </div>
-    </section>
+      </section>
 
-    <div class="band">
-    <section id="contact" class="block wrap contact">
-        <h2>Contact</h2>
-        <div class="body">
-            <p class="ask">I'm looking for internships and freelance work, and I'm happy to talk about either.</p>
-            <a class="email" href="mailto:yassiengouda@gmail.com">yassiengouda@gmail.com</a>
-            <p class="elsewhere">
-                <a href="https://github.com/Yasin-Gouda" target="_blank" rel="noopener">GitHub</a>
-                <a href="https://www.linkedin.com/in/yasin-gouda-92a5b1306" target="_blank" rel="noopener">LinkedIn</a>
+      <div class="band">
+        <section id="contact" class="block wrap contact">
+          <h2>Contact</h2>
+          <div class="body">
+            <p class="ask">
+              I'm looking for internships and freelance work, and I'm happy to
+              talk about either.
             </p>
-        </div>
-    </section>
-    </div>
+            <a class="email" href="mailto:yassiengouda@gmail.com"
+              >yassiengouda@gmail.com</a
+            >
+            <p class="elsewhere">
+              <a
+                href="https://github.com/Yasin-Gouda"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/yasin-gouda-92a5b1306"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
 
-</main>
+    <footer class="wrap">
+      <span>© 2026 Yasin Gouda</span>
+    </footer>
 
-<footer class="wrap">
-    <span>© 2026 Yasin Gouda</span>
-</footer>
-
-<script src="script/script.js"></script>
-</body>
+    <script src="script/script.js"></script>
+  </body>
 </html>
